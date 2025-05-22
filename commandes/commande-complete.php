@@ -63,7 +63,7 @@ if (isset($_GET['id'])) {
     </table>
 
     <form action="commande-delete-facture.php" method="post">
-    <input type="visible" name="id" value="<?= $facture_id; ?>">
+    <input type="hidden" name="id" value="<?= $facture_id; ?>">
     <button type="submit" class="btn red">Supprimer</button>
 </form>
 

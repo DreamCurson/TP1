@@ -56,7 +56,7 @@ if (isset($_GET['id']) && $_GET['id'] != null) {
             <input type="hidden" name="id" value="<?= $id;?>">
             <button type="submit" class="btn red">Annuler la commande</button>
         </form>
-        <a href="commande-list.php">Voir toutes les commandes</a>
+        <a href="commande-list.php" class="btn">Voir toutes les commandes</a>
     </div>
 </body>
 </html>
